@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Website Giới Thiệu Phần Mềm</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+
+<h1>SOFTWARE STORE</h1>
+<nav>
+<a href="index.html">
+Trang Chủ
+</a>
+
+<a href="search.html">
+Tìm Kiếm
+</a>
+
+<a href="product.html">
+Chi Tiết
+</a>
+
+<a href="shop.html">
+Bán Phần Mềm
+</a>
+
+<a href="admin.html">
+Quản Lý
+</a>
+</nav>
+<div class="cart">
+
+Giỏ hàng:
+<span id="cart">0</span>
+
+</div>
+</header>
+<section class="banner">
+
+<h2>
+
+Website Giới Thiệu Và Bán Phần Mềm
+
+</h2>
+<p>
+
+Chuyên cung cấp phần mềm học tập,
+thiết kế, lập trình và văn phòng.
+
+</p>
+</section>
+
+<section class="search-box">
+
+<input
+type="text"
+id="search"
+placeholder="Tìm phần mềm...">
+
+<button onclick="searchProduct()">
+
+Tìm Kiếm
+</button>
+</section>
+<section class="product">
+<div class="card">
+<h3>
+Windows 11 Pro
+</h3>
+<p>
+Hệ điều hành Microsoft.
+</p>
+<p>
+Giá: 500.000đ
+</p>
+<button onclick="addCart()">
+Mua Ngay
+</button>
+</div>
+<div class="card">
+<h3>
+Office 365
+</h3>
+<p>
+Word, Excel, PowerPoint.
+</p>
+<p>
+Giá: 350.000đ
+</p>
+<button onclick="addCart()">
+Mua Ngay
+</button>
+</div>
+<div class="card">
+<h3>
+Adobe Photoshop
+</h3>
+<p>
+Thiết kế chỉnh sửa ảnh.
+</p>
+<p>
+Giá: 700.000đ
+</p>
+<button onclick="addCart()">
+Mua Ngay
+</button>
+</div>
+<div class="card">
+<h3>
+Visual Studio
+</h3>
+<p>
+Phần mềm lập trình.
+</p>
+<p>
+Giá: 450.000đ
+</p>
+<button onclick="addCart()">
+Mua Ngay
+</button>
+</div>
+<div class="card">
+<h3>
+AutoCAD
+</h3>
+<p>
+Thiết kế kỹ thuật.
+</p>
+<p>
+Giá: 900.000đ
+</p>
+
+<button onclick="addCart()">
+Mua Ngay
+</button>
+</div>
+
+<div class="card">
+<h3>
+Kaspersky Antivirus
+</h3>
+<p>
+Phần mềm diệt virus.
+</p>
+<p>
+Giá: 400.000đ
+</p>
+
+<button onclick="addCart()">
+Mua Ngay
+</button>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
